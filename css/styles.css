@@ -4,6 +4,11 @@ body {
   margin: 20px;
 }
 
+h1, h2 {
+  color: #1e724d;
+  text-align: center;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;

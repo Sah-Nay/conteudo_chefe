@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Formulário com Código de Acesso</title>
+  <style>
+    #formContainer, #accessDenied {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+   <h2>Digite o código de acesso para abrir o formulário</h2>
+  <div id="accessContainer">
+    <input type="password" id="accessCode" placeholder="Código de acesso" />
+    <button id="submitAccess">Entrar</button>
+    <p id="accessDenied" style="color: red;">Código incorreto. Tente novamente.</p>
+  </div>
+
+  <div id="formContainer">
+    <h2>Formulário de Perguntas e Respostas</h2>
+    <form id="quizForm">
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="data">Data:</label>
+      <input type="date" id="data" name="data" required><br><br>
+
+      <label>01: Em quais situações, usa-se porcentagem?</label><br>
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br><br>
+
+      <label>02: O que é porcentagem?</label><br />
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br><br>
+
+        <label>03: Quais saõ os três tipos de porcentagem? </label><br>
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br><br>
+
+        <label>04: De exemplo de cada um dos três tipos de porcentagem:</label><br>
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br><br>
+
+        <p>06: Converta as seguintes porcentagena em número decimal:</p>
+        <label>a) 45%</label><br />
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+      <label>b) 24%</label><br />
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+      <label>c) 12%</label><br />
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+      <label>d) 87%</label><br />
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+      <label>e) 60%</label><br />
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br><br>
+
+        <p>07:Converta de porcentagem pata fração e simplifique quando der:</p>
+        <label>a) 32%</label><br />
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+      <label>b) 63%</label><br />
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+      <label>c) 14%</label><br />  
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+      <label>d) 52%</label><br />
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+      <label>e) 13%</label><br />
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br><br>
+
+        <p>08: De decimal para porcentagem:</p>
+      <label>a) 0,2</label><br />
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+      <label>b) 0,15</label><br />
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+      <label>c) 0,8</label><br />
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+      <label>d) 0,64</label><br />
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+      <label>e) 0,21</label><br>
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+
+        <p>09: De fração para porcentagem:</p>
+        <label>a) <sup>2</sup>&frasl;<sub>3</sub></label><br>
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+        <label>b) 1<sup>4</sup>&frasl;<sub>10</sub></label><br>
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+        <label>c) 1<sup>6</sup>&frasl;<sub>8</sub></label><br>
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+        <label>d) 1<sup>5</sup>&frasl;<sub>10</sub></label><br>
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+        <label>e) 1<sup>25</sup>&frasl;<sub>2</sub></label><br>
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br><br>
+
+        <p>10: Calcule a porcentagem de um valor:</p>
+        <label>a) 8% de 100</label><br>
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+        <label>b) 7% de 500</label><br />
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+        <label>c) 42% de 200</label><br />
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+        <label>d) 2% de 10</label><br />
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+        <label>e) 15% de 300</label><br />
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+        <label>f) 81% de 1000</label><br />
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+        <label>g) 13% de 800</label><br />
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+        <label>h) 63% de 84</label><br />
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br><br>
+
+        <p>11: Calcule o novo valor do produto com desconto ou almento:</p>
+        <label>a) Desconto de 2% em uma caneta de R$8,00</label><br>
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+        <label>b) Desconto de 15% em uma mala de R$55,00</label><br>
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+        <label>c) Fatura de R$87,00 terá um almento de 3% no próximo mês</label><br>
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+        <label>d) Mensalidades de R$  1.560 terão almento de 7%</label><br>
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+        <label>e) Desconto de 75% em uma blusa de R$350,00</label><br>
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+        <label>f) Média salárial antes de R$1650,00 terá almento de 12%</label><br>
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+        <label>g) Custos com saúdde antes de R$300,00 almentarão em 15%</label><br>
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+        <label>h) Desconto de 32% em uma bolsa de R$99,00</label><br>
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br><br>
+
+        <p>12:Qual é a porcentagem de X em relação a Y quando:</p>
+        <label>a) X=15 Y=200</label><br>
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+        <label>b) X=12 Y=56</label><br>
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+        <label>c) X=84 Y=500</label><br>
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+        <label>d) X=13 Y=100</label><br>
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+        <label>e) X=2 Y=200</label><br>
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+        <label>f) X=12 Y=76</label><br>
+      <textarea name="q3" id="q3" rows="2" cols="40" required></textarea><br>
+
+      <button type="submit">Enviar respostas para WhatsApp</button>
+    </form>
+  </div>
+
+  <script>
+    const correctAccessCode = "matematica"; // Defina aqui o código de acesso desejado
+
+    const accessContainer = document.getElementById('accessContainer');
+    const formContainer = document.getElementById('formContainer');
+    const accessDenied = document.getElementById('accessDenied');
+    const accessCodeInput = document.getElementById('accessCode');
+    const submitAccessBtn = document.getElementById('submitAccess');
+
+    submitAccessBtn.addEventListener('click', function() {
+      const enteredCode = accessCodeInput.value.trim();
+      if (enteredCode === correctAccessCode) {
+        accessDenied.style.display = 'none';
+        accessContainer.style.display = 'none';
+        formContainer.style.display = 'block';
+      } else {
+        accessDenied.style.display = 'block';
+      }
+    });
+
+    document.getElementById('quizForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      const name = document.getElementById('name').value.trim();
+      const q1 = document.querySelector('input[name="q1"]:checked')?.value || '';
+      const q2 = document.getElementById('q2').value;
+      const q3 = document.getElementById('q3').value.trim();
+
+      if (!name || !q1 || !q2 || !q3) {
+        alert('Por favor, preencha todas as perguntas.');
+        return;
+      }
+
+      const phoneNumber = '5511965459529'; // Seu número WhatsApp com código do país
+
+      const message = 
+        `Respostas do formulário:%0A` +
+        `Nome: ${encodeURIComponent(name)}%0A` +
+        `1. Qual a capital do Brasil? ${encodeURIComponent(q1)}%0A` +
+        `2. Cor do céu em dia claro: ${encodeURIComponent(q2)}%0A` +
+        `3. Frase sobre você: ${encodeURIComponent(q3)}`;
+
+      const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`;
+
+      window.open(whatsappURL, '_blank');
+    });
+  </script>
+</body>
+</html>
